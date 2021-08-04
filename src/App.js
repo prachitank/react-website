@@ -1,25 +1,95 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Card from './components/Card.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi this is Prachi Tank.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+        <div class="row p-3">
+          <Card
+            title="D.E. Shaw"
+            featureImage="feature-images/shawFlat.png"
+            tags="Publication | April 2020"
+            description="I design digital ecosystems for traders and analysts that help them make critical decisions in an informed and timely manner."
+            nonLinkText="The work is under NDA"
+            route="shaw"
+            linkText="Read about my experience" />
+
+          <Card
+            title="Google"
+            featureImage="feature-images/GoogleInternshipFlat.png"
+            tags="Publication | April 2020"
+            description="I did internship"
+            nonLinkText=""
+            route="google"
+            linkText="Read about my experience" />
+
+          <Card
+            title="Google"
+            featureImage="feature-images/GoogleInternshipFlat.png"
+            tags="Publication | April 2020"
+            description="I did internship"
+            nonLinkText=""
+            route="google"
+            linkText="Read about my experience" />
+
+          <Card
+            title="D.E. Shaw"
+            featureImage="feature-images/shawFlat.png"
+            tags="Publication | April 2020"
+            description="I do work"
+            nonLinkText="The work is under NDA"
+            route="shaw"
+            linkText="Read about my experience" />
+
+          <Card
+            title="Google"
+            featureImage="feature-images/GoogleInternshipFlat.png"
+            tags="Publication | April 2020"
+            description="I did internship"
+            nonLinkText=""
+            route="google"
+            linkText="Read about my experience" />
+
+          <Card
+            title="Google"
+            featureImage="feature-images/GoogleInternshipFlat.png"
+            tags="Publication | April 2020"
+            description="I did internship"
+            nonLinkText=""
+            route="google"
+            linkText="Read about my experience" />
+
+          <Card
+            title="D.E. Shaw"
+            featureImage="feature-images/shawFlat.png"
+            tags="Publication | April 2020"
+            description="I do work"
+            nonLinkText="The work is under NDA"
+            route="shaw"
+            linkText="Read about my experience" />
+
+          <Card
+            title="Google"
+            featureImage="feature-images/GoogleInternshipFlat.png"
+            tags="Publication | April 2020"
+            description="I did internship"
+            nonLinkText=""
+            route="google"
+            linkText="Read about my experience" />
+
+          <Card
+            title="Google"
+            featureImage="feature-images/GoogleInternshipFlat.png"
+            tags="Publication | April 2020"
+            description="I did internship"
+            nonLinkText=""
+            route="google"
+            linkText="Read about my experience" />
+        </div>
+
+
+    );
+  }
 }
 
-export default App;
+
