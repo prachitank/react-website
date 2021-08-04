@@ -6,7 +6,7 @@ export default class App extends React.Component {
     return (
         <div class="row p-3">
           <Card
-            title="D.E. Shaw"
+            title="This is a test"
             featureImage="feature-images/shawFlat.png"
             tags="Publication | April 2020"
             description="I design digital ecosystems for traders and analysts that help them make critical decisions in an informed and timely manner."
